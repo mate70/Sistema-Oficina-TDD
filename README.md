@@ -9,9 +9,10 @@ O sistema gerencia os serviços prestados a veículos de clientes, desde o agend
 
 ### 1 - Cliente
 Fase RED: o teste falhou pois a classe cliente ainda não foi criado 
-![Fase RED](docs/img/Cliente-RED.png)
+[Fase RED](docs/img/Cliente-RED.PNG)
 
-
+Fase GREEN: Com a implementação do Cliente.java, o teste foi um sucesso, atribuindo nome e cpf
+[Fase GREEN] (docs/img/Cliente-GREEN.PNG)
 ## Como Executar os Testes
 Para executar os testes, utilize o comando:
 ```bash
