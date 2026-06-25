@@ -61,7 +61,31 @@ Fase GREEN: Com a implementação do OrdemServico.java, o teste foi um sucesso, 
 
 Fase GREEN: Com a implementação dos atributos calcular, servico e peca na classe OrdemServico.java, o teste foi um sucesso [Fase GREEN](docs/img/OS/OS-calcula-servico-peca-GREEN.PNG)
 
+
+
 ## Como Executar os Testes
 Para executar os testes, utilize o comando:
 ```bash
 mvn test
+```
+##  Estrutura de Pastas do Projeto
+```
+sistema-oficina-tdd/
+├── src/
+│   ├── main/java/oficina/          # Códigos de produção do sistema
+│   │   ├── Cliente.java
+│   │   ├── Veiculo.java
+│   │   ├── Mecanico.java
+│   │   ├── Peca.java
+│   │   ├── Servico.java
+│   │   └── OrdemServico.java
+│   └── test/java/oficina/          # Suítes de testes unitários (JUnit 5)
+│       ├── ClienteTest.java
+│       ├── VeiculoTest.java
+│       ├── MecanicoTest.java
+│       ├── PecaTest.java
+│       ├── ServicoTest.java
+│       └── OrdemServicoTest.java
+├── docs/img/                       # Evidências dos testes (Prints)
+└── pom.xml                         # Configurações do Maven e Dependências
+```
