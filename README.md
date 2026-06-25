@@ -19,12 +19,20 @@ Fase GREEN: Com a implementação do Cliente.java, o teste foi um sucesso, atrib
 ### 2 - Veiculo
 Fase RED: o teste falhou pois a classe Veiculo ainda não foi criada [Fase RED](docs/img/veiculo/veiculo-RED.PNG)
 
-Fase RED: Implementação modelo e em Veiculo, teste falaha novamente pois a classe não possuir os atributos declarados [Fase Red](docs/img/veiculo/veiculo-modelo-RED.PNG)
+Fase RED: Implementação modelo e em Veiculo, teste falha novamente pois a classe não possuir os atributos declarados [Fase Red](docs/img/veiculo/veiculo-modelo-RED.PNG)
 
 Fase GREEN: Com a implementação do Veiculo.java, o teste foi um sucesso, atribuindo placa e dono [Fase GREEN](docs/img/cliente/Cliente-GREEN.PNG)
 
 Fase GREEN: Com a implementação dos atribuos à Veiculo.java, o teste foi um sucesso, atribuindo modelo [Fase GREEN](docs/img/veiculo/veiculo-modelo-GREEN.PNG)
 
+### 3 - Mecanico
+Fase RED: o teste falhou pois a classe mecanico ainda não foi criada [Fase RED](docs/img/mecanico/mecanico-RED.PNG)
+
+Fase RED: Implementação nome em mecanico, teste falha novamente pois a classe não possui os atributos declarados [Fase Red](docs/img/mecanico/mecanico-matri-espe-RED.PNG)
+
+Fase GREEN: Com a implementação do mecanico.java, o teste foi um sucesso, atribuindo nome [Fase GREEN](docs/img/mecanico/mecanico-GREEN.PNG)
+
+Fase GREEN: Com a implementação dos atribuos à Veiculo.java, o teste foi um sucesso, atribuindo modelo [Fase GREEN](docs/img/mecanico/mecanico-matri-espe-GREEN.PNG)
 
 ## Como Executar os Testes
 Para executar os testes, utilize o comando:
