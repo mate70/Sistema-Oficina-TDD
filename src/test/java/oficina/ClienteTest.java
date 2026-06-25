@@ -7,8 +7,9 @@ class ClienteTest {
 
     @Test
     void deveCriarClienteComSucesso() {
-        Cliente cliente = new Cliente("Matheus", "123.456.789-00");
+        Cliente cliente = new Cliente("Matheus", "123.456.789-00", "(11) 98765-4321");
         assertEquals("Matheus", cliente.getNome());
         assertEquals("123.456.789-00", cliente.getCpf());
+        assertEquals("(11) 98765-4321", cliente.getTelefone());
     }
 }
