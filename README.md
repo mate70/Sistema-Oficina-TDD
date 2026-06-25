@@ -8,11 +8,11 @@ O sistema gerencia os serviços prestados a veículos de clientes, desde o agend
 ## Evidência do ciclo TDD
 
 ### 1 - Cliente
-Fase RED: o teste falhou pois a classe cliente ainda não foi criado 
-[Fase RED](docs/img/Cliente-RED.PNG)
+Fase RED: o teste falhou pois a classe cliente ainda não foi criado [Fase RED](docs/img/cliente/Cliente-RED.PNG)
+Fase RED: Implementação telefone em cliente [Fase Red](docs/img/cliente/Cliente-telefone-RED.PNG)
 
-Fase GREEN: Com a implementação do Cliente.java, o teste foi um sucesso, atribuindo nome e cpf
-[Fase GREEN] (docs/img/Cliente-GREEN.PNG)
+Fase GREEN: Com a implementação do Cliente.java, o teste foi um sucesso, atribuindo nome e cpf [Fase GREEN](docs/img/cliente/Cliente-GREEN.PNG)
+Fase GREEN: Com a implementação do Cliente.java, o teste foi um sucesso, atribuindo nome e cpf [Fase GREEN](docs/img/cliente/Cliente-telefone-GREEN.PNG)
 ## Como Executar os Testes
 Para executar os testes, utilize o comando:
 ```bash
