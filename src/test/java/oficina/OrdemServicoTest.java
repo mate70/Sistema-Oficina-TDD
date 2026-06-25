@@ -2,7 +2,7 @@ package oficina;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-public class OndemServicoTest {
+public class OrdemServicoTest {
     @Test  
     public void deveCriarOrdemServicoComSucesso() {
         Cliente cliente = new Cliente("Matheus", "123.456.789-00", "(11) 98765-4321");
