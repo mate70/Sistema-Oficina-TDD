@@ -34,6 +34,15 @@ Fase GREEN: Com a implementação do mecanico.java, o teste foi um sucesso, atri
 
 Fase GREEN: Com a implementação dos atribuos à Veiculo.java, o teste foi um sucesso, atribuindo modelo [Fase GREEN](docs/img/mecanico/mecanico-matri-espe-GREEN.PNG)
 
+### 4 - Peca
+Fase RED: o teste falhou pois a classe peca ainda não foi criada com os atributos nome, quantidade e valor [Fase RED](docs/img/peca/peca-RED.PNG)
+
+Fase RED: Implementação de regra de negocio "remover" na classe peca, teste falha novamente pois ainda não possui os atributos declarados [Fase Red](docs/img/peca/peca-remover-regra-RED.PNG)
+
+Fase GREEN: Com a implementação do peca.java, o teste foi um sucesso, atribuindo nome, quatidade e valor [Fase GREEN](docs/img/peca/peca-GREEN.PNG)
+
+Fase GREEN: Com a implementação de regra de negócio peca.java, o teste foi um sucesso [Fase GREEN](docs/img/peca/peca-remover-regra-GREEN.PNG)
+
 ## Como Executar os Testes
 Para executar os testes, utilize o comando:
 ```bash
