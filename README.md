@@ -43,6 +43,14 @@ Fase GREEN: Com a implementação do peca.java, o teste foi um sucesso, atribuin
 
 Fase GREEN: Com a implementação de regra de negócio peca.java, o teste foi um sucesso [Fase GREEN](docs/img/peca/peca-remover-regra-GREEN.PNG)
 
+### 5 - Servico
+Fase RED: o teste falhou pois a classe servico ainda não foi criada com os atributos nome e valor [Fase RED](docs/img/servico/servico-RED.PNG)
+
+Fase RED: Implementação de regra de negocio "não pode valor negativo" na classe, teste falha novamente pois ainda não possui os atributos declarados [Fase Red](docs/img/peca/peca-remover-regra-RED.PNG)
+
+Fase GREEN: Com a implementação do servico.java, o teste foi um sucesso, atribuindo nome e valor [Fase GREEN](docs/img/servico/servico-GREEN.PNG)
+
+Fase GREEN: Com a implementação de regra de negócio servico.java, o teste foi um sucesso [Fase GREEN](docs/img/peca/peca-remover-regra-GREEN.PNG)
 ## Como Executar os Testes
 Para executar os testes, utilize o comando:
 ```bash
