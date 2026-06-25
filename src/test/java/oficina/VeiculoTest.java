@@ -8,7 +8,9 @@ public class VeiculoTest {
     @Test
     public void deveCriarVeiculoComSucesso() {
        Cliente dono = new Cliente("Matheus", "123", "999");
-       Veiculo carro = new Veiculo("ABC-1234", dono);
+       Veiculo carro = new Veiculo("ABC-1234", dono, "Carro");
        assertEquals("ABC-1234", carro.getPlaca());
+       assertEquals("Matheus", carro.getDono(). getNome());
+       assertEquals("Carro", carro.getModelo());
     }
 }
