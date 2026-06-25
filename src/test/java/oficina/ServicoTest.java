@@ -11,4 +11,11 @@ public class ServicoTest {
         assertEquals("alinhamento e balanceamento", servico.getNome());
         assertEquals(100.0, servico.getValor());
     }
+    @Test
+    public void naoDevePermitirValorNegativo() {
+        // Teste para verificar se o valor do serviço não pode ser negativo
+        assertThrows(IllegalArgumentException.class, () -> {
+            new Servico("troca de óleo", -50.0);
+        });
+    }
 }
