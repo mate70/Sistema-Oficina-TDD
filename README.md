@@ -47,10 +47,20 @@ Fase GREEN: Com a implementação de regra de negócio peca.java, o teste foi um
 Fase RED: o teste falhou pois a classe servico ainda não foi criada com os atributos nome e valor [Fase RED](docs/img/servico/servico-RED.PNG)
 
 Fase RED: Implementação de regra de negocio "não pode valor negativo" na classe, teste falha novamente pois ainda não possui os atributos declarados [Fase Red](docs/img/peca/peca-remover-regra-RED.PNG)
-
+git
 Fase GREEN: Com a implementação do servico.java, o teste foi um sucesso, atribuindo nome e valor [Fase GREEN](docs/img/servico/servico-GREEN.PNG)
 
 Fase GREEN: Com a implementação de regra de negócio servico.java, o teste foi um sucesso [Fase GREEN](docs/img/peca/peca-remover-regra-GREEN.PNG)
+
+### 6 - Ordem de Serviço
+Fase RED: o teste falhou pois a classe Ordem de Serviço ainda não foi criada com os atributos Cliente, Mecanico e Veiculo [Fase RED](docs/img/OS/OS-RED.PNG)
+
+Fase RED: Implementação para Calcular os valores do serivoço e peca, e calcular o valor, teste falha novamente pois ainda não possui os atributos declarados [Fase Red](docs/img/OS/OS-calcula-servico-peca-RED.PNG)
+git
+Fase GREEN: Com a implementação do OrdemServico.java, o teste foi um sucesso, atribuindo cliente, mecanico e veiculo [Fase GREEN](docs/img/OS/OS-GREEN.PNG)
+
+Fase GREEN: Com a implementação dos atributos calcular, servico e peca na classe OrdemServico.java, o teste foi um sucesso [Fase GREEN](docs/img/OS/OS-calcula-servico-peca-GREEN.PNG)
+
 ## Como Executar os Testes
 Para executar os testes, utilize o comando:
 ```bash
